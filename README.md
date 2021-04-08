@@ -11,9 +11,7 @@ The name of the tar.gz does not matter, the name of the directory it extracts do
 
 
 It must be run in a docker or some other discardable environment.
-
 Designed to run as root with access to everything.
-
 No sanitychecks, you should read it and understand it before using it.
 
 Example usage:
