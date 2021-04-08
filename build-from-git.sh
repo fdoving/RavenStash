@@ -71,7 +71,7 @@ make -j$THREADS
 $WORKDIR/.github/scripts/05-binary-checks.sh $BUILDFOR
 
 # we need this to build packages for osx. Should be pushed to master depends.
-apt install python3-pip
+apt install -y python3-pip
 pip3 install ds_store
 # package
 $WORKDIR/.github/scripts/06-package.sh $BUILDFOR $WORKDIR $BASEREF

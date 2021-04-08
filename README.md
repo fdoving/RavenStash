@@ -27,7 +27,7 @@ Example usage:
 
 5. `root@docker# git clone https://github.com/fdoving/RavenStash`
 
-6. This is where you edit the script to adjust to your needs. I currently use it with 36 threads and have my own branch as standard, you might want to adjust to something else.
+6. This is where you edit `RavenStash/build-from-git.sh` to adjust to your needs. I currently use it with 36 threads and have my own branch as standard, you might want to adjust to something else.
 
 7. `root@docker# mkdir -p /tmp/SDKs`
 
