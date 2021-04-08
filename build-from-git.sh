@@ -20,6 +20,7 @@ WORKPRE=/build-$1
 GITDIR=Ravencoin
 GITBRANCH=fdov-depends
 WORKDIR=$WORKPRE/$GITDIR/
+RELEASEDIR=/root/releases/
 BUILDFOR=$1
 THREADS=36
 BASEREF=dev
@@ -73,3 +74,10 @@ apt install python3-pip
 pip3 install ds_store
 # package
 $WORKDIR/.github/scripts/06-package.sh $BUILDFOR $WORKDIR $BASEREF
+
+
+# copy packages to 
+mkdir -p $RELEASEDIR
+cp $WORKDIR/release/* $RELEASEDIR
+echo "Products copied to $RELEASEDIR"
+echo "The end."
