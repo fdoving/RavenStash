@@ -43,6 +43,7 @@ apt install git
 
 cd $WORKDIR
 # install depends from apt.
+DEBIAN_FRONTEND=noninteractive \
 $WORKDIR/.github/scripts/00-install-deps.sh $BUILDFOR
 
 
