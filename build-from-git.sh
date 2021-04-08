@@ -3,17 +3,27 @@
 # Made for ubuntu, might work on debian and alike.
 # It's best if you understand it, before using it.
 # Best used in a docker or similar.
+#
 # USAGE: ./build-from-git.sh <platform>
 # where platform is one of: windows, osx, linux, arm32v7
 
+
+# WORKPRE = the directory where everything happens. we cd $WORKDIR before cloning from git.
+# GITDIR is the name of the directory we clone into, from git. 
+# GITBRANCH is the branch we checkout from git.
+# BUILDFOR is the first and only argument to this command, it's linux, windows, arm32v7 or osx.
+# THREADS is number of threads we try to use. Some, like openssl, forces -j1. I use distcc. typical should be set to around available cores.
+# BASEREF should be set to release for releases, does not matter what else it is when it's not releases.
+
+
 WORKPRE=/build-$1
 GITDIR=Ravencoin
+GITBRANCH=fdov-depends
 WORKDIR=$WORKPRE/$GITDIR/
 BUILDFOR=$1
-THREADS=22
+THREADS=36
 BASEREF=dev
 
-# set BASEREF to release for releases.
 
 # make sure we have git
 apt update
@@ -26,7 +36,7 @@ apt install git
 	cd $WORKPRE
 	git clone https://github.com/fdoving/Ravencoin.git
 	cd $GITDIR
-	git checkout fdov-depends
+	git checkout $GITBRANCH
 	git pull
 
 
@@ -37,7 +47,6 @@ $WORKDIR/.github/scripts/00-install-deps.sh $BUILDFOR
 
 # build or copy depends. Increase number of threads -j2 with -jTHREADS
 echo "Setting threads to $THREADS in 02-copy-build*...."
-
 sed -i.old 's/\-j2/\-j'$THREADS'/g' $WORKDIR/.github/scripts/02-copy-build-dependencies.sh
 $WORKDIR/.github/scripts/02-copy-build-dependencies.sh $BUILDFOR $WORKDIR
 echo "Reverting threads in 02-copy-build*...."
@@ -56,11 +65,10 @@ $WORKDIR/.github/scripts/04-configure-build.sh $BUILDFOR $WORKDIR
 # build
 make -j$THREADS
 
-
 # run tests
 $WORKDIR/.github/scripts/05-binary-checks.sh $BUILDFOR
 
-# we need this for osx. Should be pushed to master depends.
+# we need this to build packages for osx. Should be pushed to master depends.
 apt install python3-pip
 pip3 install ds_store
 # package
