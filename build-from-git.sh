@@ -11,7 +11,9 @@ GITDIR=Ravencoin
 WORKDIR=$WORKPRE/$GITDIR/
 BUILDFOR=$1
 THREADS=22
+BASEREF=dev
 
+# set BASEREF to release for releases.
 
 # make sure we have git
 apt update
@@ -53,3 +55,13 @@ $WORKDIR/.github/scripts/04-configure-build.sh $BUILDFOR $WORKDIR
 
 # build
 make -j$THREADS
+
+
+# run tests
+$WORKDIR/.github/scripts/05-binary-checks.sh $BUILDFOR
+
+# we need this for osx. Should be pushed to master depends.
+apt install python3-pip
+pip3 install ds_store
+# package
+$WORKDIR/.github/scripts/06-package.sh $BUILDFOR $WORKDIR $BASEREF
