@@ -4,7 +4,7 @@
 # It's best if you understand it, before using it.
 # Best used in a docker or similar.
 #
-# USAGE: ./build-from-git.sh <platform>
+# USAGE: ./build-from-git.sh <platform> <branch> <makethreads>
 # where platform is one of: windows, osx, linux, arm32v7
 
 
@@ -18,13 +18,19 @@
 
 WORKPRE=/build-$1
 GITDIR=Ravencoin
-GITBRANCH=fdov-depends
+GITBRANCH=$2
 WORKDIR=$WORKPRE/$GITDIR/
 RELEASEDIR=/root/releases/
 BUILDFOR=$1
-THREADS=36
+THREADS=$3
 BASEREF=dev
 
+if [ $# -lt 3 ]
+  then
+    echo "USAGE: $0 <platform> <git-branch> <make-threads>"
+    echo "Example: $0 linux master 8"
+	exit 1
+fi
 
 # make sure we have git
 apt update
