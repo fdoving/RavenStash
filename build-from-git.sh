@@ -37,6 +37,7 @@ if [ $1 = "clean" ]
 	echo "0..."
 	rm -rf $PREF*
 	echo "done."
+	exit 0
 fi	
 
 if [ $# -lt 3 ]
