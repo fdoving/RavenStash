@@ -17,12 +17,12 @@
 
 BASEREF=dev
 RELEASEDIR=/root/releases/
-PREF=/build-
+PREF=/build/
 GITDIR=Ravencoin
 GITURL=https://github.com/RavenProject/Ravencoin
 GITBRANCH=$2
+WORKPRE=$PREF/$1
 WORKDIR=$WORKPRE/$GITDIR/
-WORKPRE=$PREF$1
 BUILDFOR=$1
 THREADS=$3
 
@@ -54,7 +54,7 @@ apt install git
 # checkout git, modify to your own usage.
 # if you want to start clean every time uncomment next line.
 # rm -rf $WORKPRE
-	mkdir $WORKPRE
+	mkdir -p $WORKPRE
 	cd $WORKPRE
 	git clone $GITURL
 	cd $GITDIR
