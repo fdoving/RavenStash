@@ -18,6 +18,7 @@
 
 WORKPRE=/build-$1
 GITDIR=Ravencoin
+GITURL=https://github.com/RavenProject/Ravencoin
 GITBRANCH=$2
 WORKDIR=$WORKPRE/$GITDIR/
 RELEASEDIR=/root/releases/
@@ -32,6 +33,12 @@ if [ $# -lt 3 ]
 	exit 1
 fi
 
+
+if [ $1 -eq 1 && $1 == "clean" ]
+	then
+	rm -rf $WORKPRE-*
+fi	
+
 # make sure we have git
 apt update
 apt install git
@@ -41,7 +48,7 @@ apt install git
 # rm -rf $WORKPRE
 	mkdir $WORKPRE
 	cd $WORKPRE
-	git clone https://github.com/fdoving/Ravencoin.git
+	git clone $GITURL
 	cd $GITDIR
 	git checkout $GITBRANCH
 	git pull
@@ -77,8 +84,12 @@ make -j$THREADS
 $WORKDIR/.github/scripts/05-binary-checks.sh $BUILDFOR
 
 # we need this to build packages for osx. Should be pushed to master depends.
-apt install -y python3-pip
-pip3 install ds_store
+if [ $1 == "osx" ]
+  then
+	apt install -y python3-pip
+	pip3 install ds_store
+fi
+
 # package
 $WORKDIR/.github/scripts/06-package.sh $BUILDFOR $WORKDIR $BASEREF
 
