@@ -28,7 +28,7 @@ THREADS=$3
 
 if [ $1 = "clean" ]
 	then
-	echo "Cleaning build directories $PREF\*"
+	echo "Cleaning build directories $PREF*"
 	sleep 1
 	echo "2..."
 	sleep 1
