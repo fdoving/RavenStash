@@ -26,18 +26,17 @@ BUILDFOR=$1
 THREADS=$3
 BASEREF=dev
 
+if [ $1 -eq 1 && $1 == "clean" ]
+	then
+	rm -rf $WORKPRE-*
+fi	
+
 if [ $# -lt 3 ]
   then
     echo "USAGE: $0 <platform> <git-branch> <make-threads>"
     echo "Example: $0 linux master 8"
 	exit 1
 fi
-
-
-if [ $1 -eq 1 && $1 == "clean" ]
-	then
-	rm -rf $WORKPRE-*
-fi	
 
 # make sure we have git
 apt update
