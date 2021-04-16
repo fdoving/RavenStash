@@ -7,7 +7,7 @@
 # USAGE: ./build-from-git.sh <platform> <branch> <makethreads>
 # where platform is one of: windows, osx, linux, arm32v7
 
-
+# PREF = prefix to WORKPRE. Set this and the rest will be automagic.
 # WORKPRE = the directory where everything happens. we cd $WORKDIR before cloning from git.
 # GITDIR is the name of the directory we clone into, from git. 
 # GITBRANCH is the branch we checkout from git.
@@ -15,20 +15,28 @@
 # THREADS is number of threads we try to use. Some, like openssl, forces -j1. I use distcc. typical should be set to around available cores.
 # BASEREF should be set to release for releases, does not matter what else it is when it's not releases.
 
-
-WORKPRE=/build-$1
+BASEREF=dev
+RELEASEDIR=/root/releases/
+PREF=/build-
 GITDIR=Ravencoin
 GITURL=https://github.com/RavenProject/Ravencoin
 GITBRANCH=$2
 WORKDIR=$WORKPRE/$GITDIR/
-RELEASEDIR=/root/releases/
+WORKPRE=$PREF$1
 BUILDFOR=$1
 THREADS=$3
-BASEREF=dev
 
-if [ $1 -eq 1 && $1 == "clean" ]
+if [ $1 = "clean" ]
 	then
-	rm -rf $WORKPRE-*
+	echo "Cleaning build directories $PREF\*"
+	sleep 1
+	echo "2..."
+	sleep 1
+	echo "1..."
+	sleep 1
+	echo "0..."
+	rm -rf $PREF*
+	echo "done."
 fi	
 
 if [ $# -lt 3 ]
