@@ -40,4 +40,7 @@ Example usage:
 
 11. Results will appear in /root/releases if everything works.
 
+12. `root@docker# RavenStash/build-from-git.sh clean` - To clean up build directories, if you need to do that. 
+Now you can start over from 10. 
+
 
