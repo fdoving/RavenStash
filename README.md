@@ -15,7 +15,7 @@ It must be run in a docker or some other discardable environment.
 Designed to run as root with access to everything.
 No sanitychecks, you should read it and understand it before using it.
 
- "HyperPeek: And just for reference -- the docker build should have at least 8 GB of memory (I used 4 RAM, 4 swap). With only 2 swap the VM crashed."
+_HyperPeek: And just for reference -- the docker build should have at least 8 GB of memory (I used 4 RAM, 4 swap). With only 2 swap the VM crashed._
 
 
 Example usage:
