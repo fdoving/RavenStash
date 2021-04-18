@@ -72,7 +72,7 @@ __The build process:__
 
 `$ ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"--prefix=/usr/local` 
 
-_Adjust to own needs. This will install the binaries to `/usr/local/bin` _
+_Adjust to own needs. This will install the binaries to `/usr/local/bin`_
 
 
 `$ make -j8`  # 8 for 8 build threads, adjust to fit your setup.
