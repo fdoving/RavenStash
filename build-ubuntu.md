@@ -55,38 +55,38 @@ Ravencoin
 
 __Download Ravencoin source.__
 
-`$ git clone https://github.com/RavenProject/Ravencoin`
-`$ cd Ravencoin`
-`$ git checkout develop` # this checks out the develop branch.
+`git clone https://github.com/RavenProject/Ravencoin`
+`cd Ravencoin`
+`git checkout develop` # this checks out the develop branch.
 
 __Download and build Berkeley DB 4.8__
 
-`$ contrib/install_db4.sh ../`
+`contrib/install_db4.sh ../`
 
 
 __The build process:__
 
-`$ ./autogen.sh`
+`./autogen.sh`
 
 `export BDB_PREFIX='$HOME/src/db4'`
 
-`$ ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"--prefix=/usr/local` 
+`./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"--prefix=/usr/local` 
 
 _Adjust to own needs. This will install the binaries to `/usr/local/bin`_
 
 
-`$ make -j8`  # 8 for 8 build threads, adjust to fit your setup.
+`make -j8`  # 8 for 8 build threads, adjust to fit your setup.
 
 You can now start raven-qt from the build directory.
 
-`$ src/qt/raven-qt`
+`src/qt/raven-qt`
 
 ravend and raven-cli are in `src/`
 
 
 __Optional:__
 
-`$ sudo make install`  # if you want to install the binaries to /usr/local/bin.
+`sudo make install`  # if you want to install the binaries to /usr/local/bin.
 
 
 
