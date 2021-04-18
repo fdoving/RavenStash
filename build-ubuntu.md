@@ -59,7 +59,9 @@ Ravencoin
 __Download Ravencoin source.__
 
 `git clone https://github.com/RavenProject/Ravencoin`
+
 `cd Ravencoin`
+
 `git checkout develop` # this checks out the develop branch.
 
 __Download and build Berkeley DB 4.8__
