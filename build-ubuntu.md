@@ -76,6 +76,7 @@ __Download and build Berkeley DB 4.8__
 
 `contrib/install_db4.sh ../`
 
+_This requires [PR#934](https://github.com/RavenProject/Ravencoin/pull/934) to be merged into develop._
 
 __The build process:__
 
