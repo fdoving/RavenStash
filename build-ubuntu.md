@@ -58,6 +58,7 @@ Download Ravencoin source.
 `$ git clone https://github.com/RavenProject/Ravencoin`
 
 Download and build Berkeley DB 4.8
+
 `$ Ravencoin/contrib/install_db4.sh .`
 
 
