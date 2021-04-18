@@ -68,7 +68,8 @@ The build process:
 
 `$ ./autogen.sh`
 
-`$ ./configure --prefix=/usr/local` # adjust to own needs. This will install the binaries to `/usr/local/bin` 
+`export BDB_PREFIX='$HOME/src/db4'`
+`$ ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"--prefix=/usr/local` # adjust to own needs. This will install the binaries to `/usr/local/bin` 
 
 `$ make -j8`  # 8 for 8 build threads, adjust to fit your setup.
 
