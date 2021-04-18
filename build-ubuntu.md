@@ -56,6 +56,12 @@ Berkeley DB will be installed to `$HOME/src/db4`
 Ravencoin
 ------------------
 
+Start in $HOME
+
+Make the directory for sources
+
+`mkdir src`
+
 __Download Ravencoin source.__
 
 `git clone https://github.com/RavenProject/Ravencoin`
