@@ -58,9 +58,11 @@ Ravencoin
 
 Start in $HOME
 
-Make the directory for sources
+Make the directory for sources and go into it.
 
 `mkdir src`
+
+`cd src`
 
 __Download Ravencoin source.__
 
