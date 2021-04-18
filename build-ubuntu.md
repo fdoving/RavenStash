@@ -2,6 +2,9 @@ Build instructions for Ravencoin
 =================================
 Ubuntu 21.04 - Hirsute Hippo
 ---------------------------------
+This will install most of the dependencies from ubuntu.
+The only one we build, is Berkeley DB 4.8.
+
 
 Install dependencies:
 ----------------------------
