@@ -53,18 +53,18 @@ Berkeley DB will be installed to `$HOME/src/db4`
 Ravencoin
 ------------------
 
-Download Ravencoin source.
+__Download Ravencoin source.__
 
 `$ git clone https://github.com/RavenProject/Ravencoin`
 `$ cd Ravencoin`
 `$ git checkout develop` # this checks out the develop branch.
 
-Download and build Berkeley DB 4.8
+__Download and build Berkeley DB 4.8__
 
 `$ contrib/install_db4.sh ../`
 
 
-The build process:
+__The build process:__
 
 `$ ./autogen.sh`
 
@@ -81,7 +81,7 @@ You can now start raven-qt from the build directory.
 ravend and raven-cli are in `src/`
 
 
-Optional:
+__Optional:__
 
 `$ sudo make install`  # if you want to install the binaries to /usr/local/bin.
 
