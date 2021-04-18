@@ -51,15 +51,15 @@ Download Ravencoin source.
 
 The build process:
 
-`cd Ravencoin`
+`$ cd Ravencoin`
 
-`git checkout develop`
+`$ git checkout develop`
 
-`./autogen.sh`
+`$ ./autogen.sh`
 
-`./configure --with-incompatible-bdb`  # this is not recommended, but it works. 
+`$ ./configure --with-incompatible-bdb`  # this is not recommended, but it works. 
 
-`make -j8`  # 8 for 8 build threads, adjust to fit your setup.
+`$ make -j8`  # 8 for 8 build threads, adjust to fit your setup.
 
 
 
