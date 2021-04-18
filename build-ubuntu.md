@@ -46,6 +46,7 @@ protobuf-compiler
 Directory structure
 ------------------
 Ravencoin sources in `$HOME/src`
+
 Berkeley DB will be installed to `$HOME/src/db4`
 
 
