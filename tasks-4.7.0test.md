@@ -26,6 +26,12 @@ CHECKSUMS.asc is signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EEC
 |[901](https://github.com/RavenProject/Ravencoin/commit/0ab725d6903bba080ea4552ea9d7e3330aa67391)|Configurable IPFS-viewer|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?||
 |[917](https://github.com/RavenProject/Ravencoin/commit/d36cb41f10289edea7011a72248ca1a2d29a5dbf)|Configurable out of the box browsers|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?|||
 |[926](https://github.com/RavenProject/Ravencoin/commit/ddc821eec726eafc7ba444b177d0190d785a0925)|Enable High DPI Scaling|Does this create unwanted side effects? OSX? Windows? font-sizes high/low res? Does it fix [870](https://github.com/RavenProject/Ravencoin/issues/870) ? ||
+|[927](https://github.com/RavenProject/Ravencoin/commit/ce3a6ed4f395ac0c64204c6fab76bd7d274a2493)|Transfer asset and Send view|Check units and default values in the spinboxes. Click the arrows in spinboxes.||
+|[939](https://github.com/RavenProject/Ravencoin/commit/932a983bf0d9ea14a104457431b7576dcb1dcc49)|Redesigned mnemonic dialog|Create new wallets with all the options the new design gives.||
+|[955](https://github.com/RavenProject/Ravencoin/commit/a8be3193f470837fbcefe63e54f45200e922ca59)|aarch64-linux build|Test the aarc64-linux binaries. Make sure they work.||
+|[873](https://github.com/RavenProject/Ravencoin/commit/a7e305b16b104401b6efb890450a878467bd4c94)|P2SH|Construct transactions. Details will be provided. If not updated find us in discord.||
+
+
 
 ### Tests required to pass per PR
 | PR#  |Tests          | Comment        |  Who                 | Status     |
