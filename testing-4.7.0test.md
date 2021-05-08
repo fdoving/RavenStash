@@ -1,7 +1,9 @@
 ## Testing needed before merge to master and release
 
 Anyone can participate in this testing.
+
 You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases)
+
 _CHECKSUMS.asc signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6DEF1CFFB33_
 
 If you have any questions find us in #ravenqt-sig-working on [Discord](https://discord.gg/jn6uhur)
