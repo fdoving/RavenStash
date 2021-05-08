@@ -11,19 +11,21 @@
 
 
 
+#### You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases)
+CHECKSUMS.asc is signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6DEF1CFFB33
 
 
 
 ### List of PRs that needs testing - oldest to newest in git history.
-| PR#  | Description          | Tests        |  Comment                 | Status        |
-|------|----------------------|----------------|----------------------|---------------|
-|[909](https://github.com/RavenProject/Ravencoin/commit/73619e9e14ab06d4a11c52155b8c6f8c17206de4)|Sweep|Depends on Task #3. Detailed description will follow.||Fails to sweep [this](https://rvnt.cryptoscope.io/address/?address=mj15TuQH36sA6wxdCaNWJz4GrHMQp6rryv)|
-|[890](https://github.com/RavenProject/Ravencoin/commit/e5c4e87e5e58a429de2e4443ca00d0a7848217b5)|Dockerfile for fullnode|Build image from the file and test-run. Make sure starts and works.|||
-|[894](https://github.com/RavenProject/Ravencoin/commit/daf21eab44c68e46251148ac117305b6022ade37)|Price preview header|Make sure it works|||
-|[898](https://github.com/RavenProject/Ravencoin/commit/74e4b223c35c733ff08b6c766a9fd9561e90c1f7)|Spinboxes Create Assets|Verify this works in as many cases as possible, switch to and from the view and select different asset types|||
-|[901](https://github.com/RavenProject/Ravencoin/commit/0ab725d6903bba080ea4552ea9d7e3330aa67391)|Configurable IPFS-viewer|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?|||
-|[917](https://github.com/RavenProject/Ravencoin/commit/d36cb41f10289edea7011a72248ca1a2d29a5dbf)|Configurable out of the box browsers|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?||||
-|[926](https://github.com/RavenProject/Ravencoin/commit/ddc821eec726eafc7ba444b177d0190d785a0925)|Enable High DPI Scaling|Does this create unwanted side effects? OSX? Windows? font-sizes? Does it fix [ |||
+| PR#  | Description          | Tests                         | Status        |
+|------|----------------------|--------------------------------------|---------------|
+|[909](https://github.com/RavenProject/Ravencoin/commit/73619e9e14ab06d4a11c52155b8c6f8c17206de4)|Sweep|Depends on Task #3. Detailed description will follow.|Fails to sweep [this](https://rvnt.cryptoscope.io/address/?address=mj15TuQH36sA6wxdCaNWJz4GrHMQp6rryv)|
+|[890](https://github.com/RavenProject/Ravencoin/commit/e5c4e87e5e58a429de2e4443ca00d0a7848217b5)|Dockerfile for fullnode|Build image from the file and test-run. Make sure starts and works.||
+|[894](https://github.com/RavenProject/Ravencoin/commit/daf21eab44c68e46251148ac117305b6022ade37)|Price preview header|Make sure it works. Switch to all the options.||
+|[898](https://github.com/RavenProject/Ravencoin/commit/74e4b223c35c733ff08b6c766a9fd9561e90c1f7)|Spinboxes Create Assets|Verify this works in as many cases as possible, switch to and from the view and select different asset types||
+|[901](https://github.com/RavenProject/Ravencoin/commit/0ab725d6903bba080ea4552ea9d7e3330aa67391)|Configurable IPFS-viewer|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?||
+|[917](https://github.com/RavenProject/Ravencoin/commit/d36cb41f10289edea7011a72248ca1a2d29a5dbf)|Configurable out of the box browsers|Verify this works. Set your own, restart, reset, restart, etc. Try to break it with broken urls?|||
+|[926](https://github.com/RavenProject/Ravencoin/commit/ddc821eec726eafc7ba444b177d0190d785a0925)|Enable High DPI Scaling|Does this create unwanted side effects? OSX? Windows? font-sizes high/low res? Does it fix [870](https://github.com/RavenProject/Ravencoin/issues/870) ? ||
 
 ### Tests required to pass per PR
 | PR#  |Tests          | Comment        |  Who                 | Status     |
