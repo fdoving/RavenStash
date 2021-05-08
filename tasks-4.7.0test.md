@@ -17,6 +17,11 @@ _CHECKSUMS.asc signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6
 
 
 ### Testing needed before merge to master and release - oldest to newest in git merge history.
+
+Anyone can participate in this testing.
+If you have any questions find us in #ravenqt-sig-working on [Discord](https://discord.gg/jn6uhur)
+
+
 | PR#  | Description          | Tests                         | Status        |
 |------|----------------------|--------------------------------------|---------------|
 |[909](https://github.com/RavenProject/Ravencoin/commit/73619e9e14ab06d4a11c52155b8c6f8c17206de4)|Sweep|Depends on Task #3. Detailed description will follow.|Fails to sweep [this](https://rvnt.cryptoscope.io/address/?address=mj15TuQH36sA6wxdCaNWJz4GrHMQp6rryv)|
