@@ -6,6 +6,10 @@ You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravenc
 
 _CHECKSUMS.asc signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6DEF1CFFB33_
 
+### The binaries will not sync on mainnet, known issue.
+Start with the -testnet argument or with the testnet shortcut.
+
+
 If you have any questions find us in #ravenqt-sig-working on [Discord](https://discord.gg/jn6uhur)
 
 
