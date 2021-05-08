@@ -40,7 +40,7 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 |WIN|Build/binaries|Test Windows binaries on various versions of Windows. |||
 |LIN|Build/binaries|Test Linux binaries on various versions of Linux. |||
 |ARM|Build/binaries|Test arm-linux-gnieabihf binaries.|||
-|AARCH64|Build/binaries|Test arm-linux-gnieabihf binaries.|Related to PR#955||
+|AARCH64|Build/binaries|Test arm-linux-gnieabihf binaries.||Related to PR#955|
 
 
 
