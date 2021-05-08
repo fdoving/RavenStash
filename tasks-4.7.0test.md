@@ -1,4 +1,4 @@
-### Tasks
+### Tasks to be finished before final.
 | #  |Task          | Comment        |  Who                 | Status         |
 |---|---------------|------------|-------------------------|------------|
 |1. |Fix p2sh sync on mainnet.|[script.cpp:257](https://github.com/RavenProject/Ravencoin/blob/038da6b6b39cd2ab93606ead02ad5f9695288ab8/src/script/script.cpp#L257) [tx_verify.cpp:660](https://github.com/RavenProject/Ravencoin/blob/038da6b6b39cd2ab93606ead02ad5f9695288ab8/src/consensus/tx_verify.cpp#L660)||
