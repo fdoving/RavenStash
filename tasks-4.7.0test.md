@@ -30,6 +30,13 @@ CHECKSUMS.asc is signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EEC
 |[939](https://github.com/RavenProject/Ravencoin/commit/932a983bf0d9ea14a104457431b7576dcb1dcc49)|Redesigned mnemonic dialog|Create new wallets with all the options the new design gives.||
 |[955](https://github.com/RavenProject/Ravencoin/commit/a8be3193f470837fbcefe63e54f45200e922ca59)|aarch64-linux build|Test the aarc64-linux binaries. Make sure they work.||
 |[873](https://github.com/RavenProject/Ravencoin/commit/a7e305b16b104401b6efb890450a878467bd4c94)|P2SH|Construct transactions. Details will be provided. If not updated find us in discord.||
+|OSX|Build/binaries|Test OSX binaries on various versions of OSX. ||
+|OSX64|Build/binaries|Test OSX64 binaries.||
+|WIN|Build/binaries|Test Windows binaries on various versions of Windows. ||
+|LIN|Build/binaries|Test Linux binaries on various versions of Linux. ||
+|ARM|Build/binaries|Test arm-linux-gnieabihf binaries.||
+|AARCH64|Build/binaries|Test arm-linux-gnieabihf binaries.|Related to PR#955|
+
 
 
 
