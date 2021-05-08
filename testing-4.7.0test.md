@@ -1,4 +1,4 @@
-## Testing needed before merge to master and release - oldest to newest in git merge history.
+## Testing needed before merge to master and release
 
 Anyone can participate in this testing.
 You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases)
