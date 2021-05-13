@@ -57,7 +57,7 @@ __The build process:__
 
 `./autogen.sh`
 
-This is for `sh`
+This is for `sh` or `bash`. 
 
 `export BDB_PREFIX=$HOME/src/db4`
 
