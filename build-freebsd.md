@@ -57,13 +57,13 @@ __The build process:__
 
 `./autogen.sh`
 
-This is for `csh`
+This is for `sh`
 
-`setenv BDB_PREFIX $HOME/src/db4`
+`export BDB_PREFIX=$HOME/src/db4`
 
-`./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=/usr/local MAKE=gmake` 
+`./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" CFLAGS="-fPIC" CXXFLAGS="-fPIC -I/usr/local/include" --prefix=/usr/local MAKE=gmake`
 
-_Adjust to own needs. This will install the binaries to `/usr/local/bin`_
+_Adjust to own needs. `--prefix=/usr/local` will install the binaries to `/usr/local/bin`_
 
 
 `gmake -j8`  # 8 for 8 build threads, adjust to fit your setup.
