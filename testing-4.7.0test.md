@@ -21,7 +21,6 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 
 | PR#  | Description          | Tests                         |Results| Status        |
 |------|----------------------|-------------------------------|-------|---------------|
-|[909](https://github.com/RavenProject/Ravencoin/commit/73619e9e14ab06d4a11c52155b8c6f8c17206de4)|Sweep|Depends on [Task #3](https://github.com/fdoving/RavenStash/blob/main/tasks-4.7.0test.md). Detailed description will follow.|[880](https://github.com/RavenProject/Ravencoin/issues/880)|Fails to sweep [this](https://rvnt.cryptoscope.io/address/?address=mj15TuQH36sA6wxdCaNWJz4GrHMQp6rryv)|
 |[890](https://github.com/RavenProject/Ravencoin/commit/e5c4e87e5e58a429de2e4443ca00d0a7848217b5)|Dockerfile for full node|Build image from the file and test-run. Make sure starts and works.|[982](https://github.com/RavenProject/Ravencoin/issues/982)||
 |[894](https://github.com/RavenProject/Ravencoin/commit/daf21eab44c68e46251148ac117305b6022ade37)|Price preview header|Make sure it works. Switch to all the options.|[983](https://github.com/RavenProject/Ravencoin/issues/983)||
 |[898](https://github.com/RavenProject/Ravencoin/commit/74e4b223c35c733ff08b6c766a9fd9561e90c1f7)|Spinboxes Create Assets|Verify this works in as many cases as possible, switch to and from the view and select different asset types|[984](https://github.com/RavenProject/Ravencoin/issues/984)||
@@ -31,7 +30,7 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 |[927](https://github.com/RavenProject/Ravencoin/commit/ce3a6ed4f395ac0c64204c6fab76bd7d274a2493)|Transfer asset and Send view|Check units and default values in the spinboxes. Click the arrows in spinboxes.|[988](https://github.com/RavenProject/Ravencoin/issues/988)||
 |[939](https://github.com/RavenProject/Ravencoin/commit/932a983bf0d9ea14a104457431b7576dcb1dcc49)|Redesigned mnemonic dialog|Create new wallets with all the options the new design gives.|[989](https://github.com/RavenProject/Ravencoin/issues/989)||
 |[955](https://github.com/RavenProject/Ravencoin/commit/a8be3193f470837fbcefe63e54f45200e922ca59)|aarch64-linux build|Test the aarc64-linux binaries. Make sure they work.|[995](https://github.com/RavenProject/Ravencoin/issues/995)||
-|[873](https://github.com/RavenProject/Ravencoin/commit/a7e305b16b104401b6efb890450a878467bd4c94)|P2SH|Construct transactions. Details will be provided. If not updated find us in discord.|[990](https://github.com/RavenProject/Ravencoin/issues/990)||
+|[873](https://github.com/RavenProject/Ravencoin/commit/a7e305b16b104401b6efb890450a878467bd4c94)|P2SH for Assets|Construct transactions. Details will be provided. If not updated find us in discord.|[990](https://github.com/RavenProject/Ravencoin/issues/990)||
 |OSX|Build/binaries|Test OSX binaries on various versions of OSX. |[991](https://github.com/RavenProject/Ravencoin/issues/991)||
 |OSX64|Build/binaries|Test OSX64 binaries.|[991](https://github.com/RavenProject/Ravencoin/issues/991)||
 |WIN|Build/binaries|Test Windows binaries on various versions of Windows. |[992](https://github.com/RavenProject/Ravencoin/issues/992)||
