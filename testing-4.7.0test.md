@@ -7,7 +7,7 @@ You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravenc
 
 _CHECKSUMS.asc signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6DEF1CFFB33_
 
-### The version [4.7.0test3-fdov](https://github.com/fdoving/Ravencoin/releases) binaries will work for both mainnet and testnet. 
+### The version [4.7.0test3-fdov](https://github.com/fdoving/Ravencoin/releases/tag/v4.7.0test3-fdov) binaries will work for both mainnet and testnet. 
 If you want testnet, start with the -testnet argument or with the testnet shortcut. Syncing will take a while.
 
 ### The version [4.7.0test2](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases) binaries will work for both mainnet and testnet. 
