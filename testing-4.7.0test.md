@@ -2,8 +2,8 @@
 
 Anyone can participate in this testing.
 
-You can get test3-fdov binaries from [SIG-Github](https://github.com/fdoving/Ravencoin/releases)
-You can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases)
+You can get test3-fdov binaries from [my repo](https://github.com/fdoving/Ravencoin/releases)
+or you can get binaries from [SIG-Github](https://github.com/Ravenqt-RVN-SIG/Ravencoin/releases)
 
 _CHECKSUMS.asc signed with fdovs PGP Fingerprint: 87EE482FE0942D570EBCFD8B6EECA6DEF1CFFB33_
 
