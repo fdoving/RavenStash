@@ -38,7 +38,7 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 |[939](https://github.com/RavenProject/Ravencoin/commit/932a983bf0d9ea14a104457431b7576dcb1dcc49)|Redesigned mnemonic dialog|Create new wallets with all the options the new design gives.|[989](https://github.com/RavenProject/Ravencoin/issues/989)||
 |[955](https://github.com/RavenProject/Ravencoin/commit/a8be3193f470837fbcefe63e54f45200e922ca59)|aarch64-linux build|Test the aarc64-linux binaries. Make sure they work.|[995](https://github.com/RavenProject/Ravencoin/issues/995)||
 |[873](https://github.com/RavenProject/Ravencoin/commit/a7e305b16b104401b6efb890450a878467bd4c94)|P2SH for Assets|Construct transactions. Details will be provided. If not updated find us in discord.|[990](https://github.com/RavenProject/Ravencoin/issues/990)||
-|[976](https://github.com/RavenProject/Ravencoin/pull/976)|GUI: Wallet -> Get my words|Check unlocking and re-locking.|[1065](https://github.com/RavenProject/Ravencoin/issues/1065)||
+|[976](https://github.com/RavenProject/Ravencoin/pull/976)|GUI: Wallet -> Get my words|Check unlocking and re-locking.|[1065](https://github.com/RavenProject/Ravencoin/issues/1065)|:white_check_mark:|
 |[1030](https://github.com/RavenProject/Ravencoin/pull/1030)|GUI: Hide text in toolbar. | Options -> Window -> Icons only.  Test on/off. Icon size, placement etc.|[478](https://github.com/RavenProject/Ravencoin/issues/478)||
 |[1085](https://github.com/RavenProject/Ravencoin/pull/1085)|bip39 import multilanguage|||||
 |OSX|Build/binaries|Test OSX binaries on various versions of OSX. |[991](https://github.com/RavenProject/Ravencoin/issues/991)||
