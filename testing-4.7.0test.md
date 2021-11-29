@@ -46,5 +46,4 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 |WIN|Build/binaries|Test Windows binaries on various versions of Windows. |[992](https://github.com/RavenProject/Ravencoin/issues/992)||
 |LIN|Build/binaries|Test Linux binaries on various versions of Linux. |[993](https://github.com/RavenProject/Ravencoin/issues/993)||
 |ARM|Build/binaries|Test arm-linux-gnueabihf binaries.|[994](https://github.com/RavenProject/Ravencoin/issues/994)||
-|AARCH64|Build/binaries|Test aarch64-linux binaries.|[985](https://github.com/RavenProject/Ravencoin/issues/985)|Related to PR#955|
 
