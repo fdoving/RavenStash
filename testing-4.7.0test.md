@@ -43,7 +43,7 @@ If you have any questions find us in #ravenqt-sig-working on [Discord](https://d
 |[1085](https://github.com/RavenProject/Ravencoin/pull/1085)|bip39 import multilanguage|||||
 |OSX|Build/binaries|Test OSX binaries on various versions of OSX. |[991](https://github.com/RavenProject/Ravencoin/issues/991)||
 |OSX64|Build/binaries|Test OSX64 binaries.|[991](https://github.com/RavenProject/Ravencoin/issues/991)||
-|WIN|Build/binaries|Test Windows binaries on various versions of Windows. |[992](https://github.com/RavenProject/Ravencoin/issues/992)||
-|LIN|Build/binaries|Test Linux binaries on various versions of Linux. |[993](https://github.com/RavenProject/Ravencoin/issues/993)||
+|WIN|Build/binaries|Test Windows binaries on various versions of Windows. |[992](https://github.com/RavenProject/Ravencoin/issues/992)|:white_check_mark:|
+|LIN|Build/binaries|Test Linux binaries on various versions of Linux. |[993](https://github.com/RavenProject/Ravencoin/issues/993)|:white_check_mark:|
 |ARM|Build/binaries|Test arm-linux-gnueabihf binaries.|[994](https://github.com/RavenProject/Ravencoin/issues/994)||
 
